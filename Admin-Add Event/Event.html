@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="Event.css" rel="stylesheet" type="text/css"
+<style>
+
+</style>
+</head>
+<body>
+
+<h2>Add Event</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">AddEvent</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Event name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Date</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="mm/dd/yyyy..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Event</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Musical Night</option>
+          <option value="canada">Fest</option>
+          <option value="usa">Expo</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="ADD">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
